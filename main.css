@@ -1,0 +1,330 @@
+*{
+	margin:0px;
+	padding:0px;
+	
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #212529;
+    background-color: #fff;
+}
+
+header.mainheader nav {
+    border-bottom: 1px solid #cacaca;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 6px #cacaca;
+    font-size: 17px;
+}
+.navbar-nav>li>a {
+    color: #777;
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.navbar-nav .dropdown-menu>li>a {
+    padding: 8px 20px;
+}
+
+.navbar-nav>li>a>i {
+    font-size: 20px;
+    color: #313131;
+}
+.navbar-nav .badge {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: 0px solid #dc3545;
+    border-radius: 50%;
+}
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: #777;
+    border-radius: 10px;
+}
+
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    position: absolute;
+    margin-top: 22px;
+    border-top: 2px solid #C8BFBF;
+    border-radius: 0px 0px 4px 4px;
+}
+.navbar-expand-sm .navbar-nav>li>a {
+    padding-left: 3rem !important;
+}
+.navbar-expand-sm .navbar-nav ul li>.nav-link:hover{
+    color: #555;
+    background-color: #e7e7e7;
+}
+.navbar-nav .dropdown-menu>li>a:focus, .navbar-nav .dropdown-menu>li>a:hover {
+    background-color: #fafafa;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.navbar-expand-sm .navbar-nav .dropdown-menu li a {
+    border-bottom: 1px solid rgb(0 0 0 / 9%);
+}
+
+span.notification-item.danger {
+    color: #df2525;
+    font-size: 13px;
+    padding-right: 3px;
+}
+
+span.notification-item.dotbg {
+    color: #cad99d;
+	font-size: 13px;
+	padding-right: 3px;
+}
+span.profilewe {
+    font-weight: 600;
+}
+.wrapper {
+    margin-top: 8rem;
+}
+
+.btdis {
+    display: inline-flex;
+}
+span.borcenter {
+    border-bottom: 2px dashed #9b8484;
+    vertical-align: baseline;
+    width: 2rem;
+    border-top: 0px dashed #333;
+    z-index: 900;
+    border-left: 0px dashed #333;
+    border-right: 0px dashed #333;
+    display: block;
+    position: relative;
+    top: -16px;
+    margin-left: 1px;
+}
+
+span.tablinks.btn.btn-default.btnborpadd {
+    border: 1px solid #333;
+    border-radius: 27px;
+    padding: 1px 3rem 0px 0px;
+}
+span.tablinks.btn.btn-default.btnborpadd.active {
+    box-shadow: 1px 1px 4px aliceblue;
+    background-color: #d9d9d9;
+}
+.btnborpadd span.badge {
+    background-color: #ffffff08;
+    color: #333;
+    border: 0px solid #333;
+    border-radius: 27px;
+    padding: 0px;
+    vertical-align: sub;
+}
+.btnborpadd span.badge i {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 18px;
+    width: 35px;
+    height: 35px;
+}
+
+table {
+    background-color: #fafafa;
+    border-radius: 4px;
+	    border-radius: 0px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    padding-top: 1rem;
+    font-size: 14px;
+}	
+.table td, .table th td {
+    font-size: 14px;
+}
+
+tr.borbdash {
+    border-bottom: 2px dashed #b9e0ef;
+}
+button.btn.btn-info.btnbortb {
+    background-color: #fafafa;
+    color: #333;
+    border: 0px solid #fafafa;
+    padding: 10px 10px;
+	    border-radius: 0px;
+}
+button.btn.btn-info.btnbortb:hover {
+    background-color: #d9d9d9;
+    color: #333;
+    border: 0px solid #d9d9d9;
+    padding: 10px 10px;
+}
+button.btn.btn-info.btnbortb.active {
+    color: #333;
+    background-color: #dfdfdf;
+    font-size: 16px;
+    font-weight: 600;
+}
+span.swarning {
+    color: #d7b71a;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    border-radius: 18px 18px 0px 0px;
+}
+
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.tabcontent.active {
+    display: block;
+}
+
+table.table.table-borderless th, table.table.table-borderless td {
+    border-right: 1px solid #b9e0ef;
+}
+table.table.table-borderless th:last-child{
+    border-right: 0px solid #dee2e6;
+}
+table.table.table-borderless td:last-child{
+    border-right: 0px solid #dee2e6;
+}
+span.textclr {
+    color: #c41414;
+}
+
+/*====================start media code=============================*/
+
+@media (max-width: 768px){
+	.navbar-nav .badge {
+		position: relative;
+		top: -10px;
+		right: 15px;
+	}
+}
+
+
+@media (max-width: 767px){
+
+
+.btdis {
+    display: block;
+}
+span.borcenter {
+    display: none;
+}
+
+button.btn.btn-info.btnbortb {
+    display: inline-block;
+    margin-bottom: 7px;
+    position: relative;
+    z-index: 777;
+}
+div#collapsibleNavbar {
+    background: #fafafa;
+}
+div#collapsibleNavbar li a {
+    padding: 14px 14px;
+    background: #fafafa;
+    border-bottom: 1px solid #f8e2e2;
+}
+.table thead th {
+    padding-top: 0.6rem;
+    font-size: 14px;
+}
+.navbar-expand-sm .navbar-nav .dropdown-menu {
+    margin-top: 9px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 992px){
+
+span.tablinks.btn.btn-default.btnborpadd {
+    padding: 1px 0.4rem 0px 0px;
+    text-align: -webkit-left;
+    font-size: 14px;
+}
+span.borcenter {
+    top: -13px;
+}
+.btnborpadd span.badge {
+    padding: 0px;
+}
+.btnborpadd span.badge i {
+    padding: 7px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+}
+
+
+@media (min-width: 993px) and (max-width: 1200px){
+
+span.tablinks.btn.btn-default.btnborpadd {
+    padding: 1px 0.4rem 0px 0px;
+    text-align: -webkit-left;
+    font-size: 14px;
+}
+span.borcenter {
+    top: -13px;
+}
+.btnborpadd span.badge {
+    padding: 0px;
+}
+.btnborpadd span.badge i {
+    padding: 7px;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+}
